@@ -9,8 +9,11 @@ The data I propose to visualize for my project is structured data in XML format.
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
-It would be nice to have a dashboard that can plot the equipment location on a map and then when you open the equipment it shows you all pertinent records. 
-From there, it would be nice to compare the test data in that record to all the records for that make/model of equipment.
+*Create a dashboard to hold multiple views
+*Plot the equipment on a map with a tooltip that shows the equipment parameters and records
+*Plot trending data for equipment that has been tested throughout the years as a line chart
+**Compare two pieces of equipment on the same trend plot
+
 How does the new test data compare across geographic areas?
 How does the new test data compare to equipment of the same model?
 
