@@ -9,10 +9,10 @@ The data I propose to visualize for my project is structured data in XML format.
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
-*Create a dashboard to hold multiple views
-*Plot the equipment on a map with a tooltip that shows the equipment parameters and records
-*Plot trending data for equipment that has been tested throughout the years as a line chart
-**Compare two pieces of equipment on the same trend plot
+* Create a dashboard to hold multiple views
+* Plot the equipment on a map with a tooltip that shows the equipment parameters and records
+* Plot trending data for equipment that has been tested throughout the years as a line chart
+* Compare two pieces of equipment on the same trend plot
 
 How does the new test data compare across geographic areas?
 How does the new test data compare to equipment of the same model?
