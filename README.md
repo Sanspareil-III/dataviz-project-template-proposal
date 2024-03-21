@@ -38,7 +38,7 @@ I'm worried about pulling in XML data for the first time, I haven't done that wi
 ### Week 1 ###
 * Plot trending data for equipment that has been tested throughout the years as a line chart
 ### Week 2 ###
-*Accept multiple XML sheets
+* Accept multiple XML sheets
 ### Week 3 ###
 * Compare two sister assets on the same trend plot
 ### Week 4 ###
