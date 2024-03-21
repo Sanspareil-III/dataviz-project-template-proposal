@@ -35,17 +35,17 @@ I'm worried about pulling in XML data for the first time, I haven't done that wi
 
 ## Milestones
 
-### Week 1 ###
+### Week 10 ###
 * Plot trending data for equipment that has been tested throughout the years as a line chart
-### Week 2 ###
+### Week 11 ###
 * Accept multiple XML sheets
-### Week 3 ###
+### Week 12 ###
 * Compare two sister assets on the same trend plot
-### Week 4 ###
+### Week 13 ###
 *Plot the equipment on a map with a tooltip that shows the equipment parameters and records
-### Week 5 ###
+### Week 14 ###
 * Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
-### Week 6 ###
+### Week 15 ###
 * Create a dashboard to hold multiple views
 
 
