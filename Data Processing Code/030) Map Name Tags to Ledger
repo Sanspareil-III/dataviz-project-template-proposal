@@ -1,0 +1,55 @@
+#Create Pre-Mapped Name Column
+import pandas as pd
+import numpy as np
+import glob
+
+# Specify the folder path where the CSV file is located
+folder_path = r'F:\XML Study'
+
+# Find all CSV files in the folder
+csv_files = glob.glob(f"{folder_path}/*.csv")
+
+if not csv_files:
+    raise FileNotFoundError("No CSV files found in the specified folder.")
+
+# Assuming you want to use the first CSV file found
+file_path = csv_files[0]
+
+# Load the CSV file into a pandas DataFrame
+df = pd.read_csv(file_path)
+
+# Convert 'Name' column to a consistent case for comparison, but preserve original names
+df['name_lower'] = df['name'].str.lower()
+name_column = 'name_lower'
+tag_column = 'powerdb.testdata/form/test/data/tag'
+
+# Prepare DataFrame for Excel mappings
+unique_names = df[['name', 'name_lower']].drop_duplicates().reset_index(drop=True)
+tag_data = df.groupby(name_column)[tag_column].apply(lambda x: pd.Series(x.unique())).reset_index()
+
+# Ensure the second level of the index is named for pivoting
+if len(tag_data.columns) == 3:  # If there's an unnamed level_1 from .apply(), name it
+    tag_data = tag_data.rename(columns={'level_1': 'Entry Index'})
+
+# Pivot tag data to widen format
+tag_wide = tag_data.pivot(index=name_column, columns='Entry Index', values=tag_column)
+tag_wide.reset_index(inplace=True)
+
+# Join unique names with their corresponding tag data, expanding into separate columns
+mappings_df = pd.merge(unique_names, tag_wide, left_on='name_lower', right_on=name_column, how='left')
+mappings_df.drop(['name_lower', name_column], axis=1, inplace=True)
+
+# Insert an empty 'Mapped Text' column for user input and position it as the second column
+mappings_df.insert(1, 'Mapped Text', np.nan)
+
+# Count non-NaN entries for each row, excluding the 'name' and 'Mapped Text' columns for sorting
+mappings_df['entry_count'] = mappings_df.iloc[:, 2:].notna().sum(axis=1)
+
+# Sort the DataFrame based on 'entry_count' in descending order and drop the 'entry_count' column
+mappings_df = mappings_df.sort_values(by='entry_count', ascending=False).drop('entry_count', axis=1)
+
+# Define the path for the Excel mappings file
+mappings_path = folder_path + '\\name_mappings.xlsx'
+
+# Save to Excel without the index
+mappings_df.to_excel(mappings_path, index=False)
