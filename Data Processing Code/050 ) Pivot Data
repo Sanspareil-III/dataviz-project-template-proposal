@@ -1,0 +1,22 @@
+#Pivot Data
+import pandas as pd
+
+# Load the modified consolidated CSV file
+csv_path = r'F:\XML Study\modified_consolidated_output.csv' 
+df = pd.read_csv(csv_path)
+
+# Ensure that `eqguid` and `resultsguid` are of type string to avoid any potential merge/pivot issues
+df['eqguid'] = df['eqguid'].astype(str)
+df['resultsguid'] = df['resultsguid'].astype(str)
+
+# Pivot the DataFrame
+pivot_df = df.pivot_table(index=['resultsguid', 'eqguid'], columns='name', values='merged_column', aggfunc='first').reset_index()
+
+# Fill NaN values with an appropriate placeholder if necessary (e.g., empty string)
+pivot_df = pivot_df.fillna('')
+
+# Save the transformed data to a new Excel file
+output_excel_path = r'F:\XML Study\transformed_output.xlsx'
+pivot_df.to_excel(output_excel_path, index=False)
+
+print(f"Transformed data saved to: {output_excel_path}")
