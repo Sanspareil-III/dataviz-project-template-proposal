@@ -1,0 +1,34 @@
+import pandas as pd
+
+# Specify the path to the CSV file
+input_file_path = 'F:\\XML Study\\consolidated_output.csv'
+output_file_path = 'F:\\XML Study\\consolidated_output_merge.csv'
+
+# Load the CSV file
+df = pd.read_csv(input_file_path)
+
+# Ensure there are no NaN values in the columns of interest.
+df['name'].fillna('', inplace=True)
+
+if 'index' in df.columns:
+    # Convert 'index' to string without decimals. Assuming 'index' is an integer column.
+    df['index'] = df['index'].apply(lambda x: str(int(x)) if not pd.isnull(x) else '')
+    # Merge 'index' and 'name' columns.
+    df['name'] = df['index'] + ' ' + df['name']
+else:
+    df['name'] = df.index.to_series().apply(lambda x: str(x)) + ' ' + df['name']
+
+# Save the modified DataFrame to a new CSV file after the name and index merge
+df.to_csv(output_file_path, index=False)
+
+print(f"CSV file has been updated with merged name and index, saved as '{output_file_path}'.")
+
+columns_to_merge = [11, 13, 14, 15]  # Adjusted column indexes based on zero-indexing used by pandas
+df['merged_column'] = df.apply(lambda row: ','.join([str(row[i]) for i in columns_to_merge if pd.notnull(row[i])]), axis=1)
+
+modified_csv_path = r'F:\\XML Study\\consolidated_output_merge2.csv'
+
+# Save the modified DataFrame to a new CSV file after merging data columns
+df.to_csv(modified_csv_path, index=False)
+
+print(f"Modified CSV with merged data columns saved to: {modified_csv_path}")
