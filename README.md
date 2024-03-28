@@ -15,7 +15,7 @@ The following tasks and questions will drive the visualization and interaction d
 * Compare two sister assets on the same trend plot
 * Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
 
-How does the new test data compare across geographic areas?
+How does the new test data compare across geographic areas or climate zones?
 How does the new test data compare to equipment of the similar characteristics?
 
 ## Sketches
@@ -29,23 +29,20 @@ More sketches to come based on tasks
 ## Prototypes
 ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)
 
-## Open Questions
-
-I'm worried about pulling in XML data for the first time, I haven't done that with JS. I feel 
 
 ## Milestones
 
-### Week 10 ###
-* Accept multiple XML sheets
 ### Week 11 ###
-* Plot trending data for equipment that has been tested throughout the years as a line chart
+* Accept multiple XML sheets
 ### Week 12 ###
-* Compare two sister assets on the same trend plot
+* Plot trending data for equipment that has been tested throughout the years as a line chart
 ### Week 13 ###
-*Plot the equipment on a map with a tooltip that shows the equipment parameters and records
+* Compare two sister assets on the same trend plot
 ### Week 14 ###
-* Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
+* Plot the equipment on a map with a tooltip that shows the equipment parameters and records
 ### Week 15 ###
+* Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
+### Week 16 ###
 * Create a dashboard to hold multiple views
 
 
