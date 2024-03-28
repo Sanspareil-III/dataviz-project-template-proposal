@@ -36,9 +36,9 @@ I'm worried about pulling in XML data for the first time, I haven't done that wi
 ## Milestones
 
 ### Week 10 ###
-* Plot trending data for equipment that has been tested throughout the years as a line chart
-### Week 11 ###
 * Accept multiple XML sheets
+### Week 11 ###
+* Plot trending data for equipment that has been tested throughout the years as a line chart
 ### Week 12 ###
 * Compare two sister assets on the same trend plot
 ### Week 13 ###
