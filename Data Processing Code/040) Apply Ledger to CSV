@@ -1,0 +1,30 @@
+#Apply Map to CSV
+
+import pandas as pd
+
+# Paths to your files - Replace these with the actual paths to your files
+name_mappings_path = r'F:\XML Study\name_mappings.xlsx'
+consolidated_csv_path = r'F:\XML Study\consolidated_output.csv'
+modified_csv_path = r'F:\XML Study\modified_consolidated_output.csv'
+
+# Load the name mappings from the Excel file
+name_mappings_df = pd.read_excel(name_mappings_path)
+
+# Create a dictionary for mapping the original 'name' to the 'new name column'
+name_mapping_dict = pd.Series(name_mappings_df['new name column'].values, index=name_mappings_df['name']).to_dict()
+
+# Load the consolidated CSV file
+consolidated_df = pd.read_csv(consolidated_csv_path)
+
+# Map the 'name' column in the CSV using the mapping dictionary
+consolidated_df['name'] = consolidated_df['name'].map(name_mapping_dict)
+
+# After mapping, filter out rows where the 'name' does not exist in the 'new name column' or is blank
+# This step requires re-evaluation as per your description, ensuring all names are in the new name set and are not blank
+valid_new_names = set(name_mappings_df['new name column'].values)
+consolidated_df = consolidated_df[consolidated_df['name'].isin(valid_new_names) & consolidated_df['name'].notna() & consolidated_df['name'].str.strip().ne('')]
+
+# Save the modified DataFrame to a new CSV file
+consolidated_df.to_csv(modified_csv_path, index=False)
+
+print(f"Modified CSV saved to: {modified_csv_path}")
