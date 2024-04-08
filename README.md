@@ -18,6 +18,7 @@ How does the new test data compare to equipment of the similar characteristics?
 ## Prototypes
 ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)
 
+### Update 4/8/24
 Removed all zero or null values from visual, set upper threshold for certain drop down selection
 ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)
 
