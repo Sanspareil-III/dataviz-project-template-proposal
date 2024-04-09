@@ -29,24 +29,28 @@ The following tasks and questions will drive the visualization and interaction d
   ### 3/25/24
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)
   
-  ### Update 4/8/24
+  ### Update 4/1/24
   Removed all zero or null values from visual, set upper threshold for certain drop down selection
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)
+  
+  ### Update 4/9/24
+  Implemented Multiple Vizzes into One 
+  ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/6541c5ec-35b0-4235-afed-a17ed6fd060b)
 
 
 ## Milestones
 
 ### Week 11 ###
-* Accept multiple XML sheets
+* ~~Display multiple XML sheet~~
 ### Week 12 ###
-* Plot data for equipment that has been tested throughout the years with insights, highlighting by category.
+* ~~Plot data for equipment that has been tested throughout the years with insights, highlighting by category.~~
 ### Week 13 ###
-* Compare data from sister assets or trending data from the same asset on one plot.
+* ~~Create a dashboard to hold multiple views~~
 ### Week 14 ###
-* Plot the equipment on a map with a tooltip that shows the equipment parameters and records
+* Compare data from sister assets or trending data from the same asset on one plot.
 ### Week 15 ###
-* Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
+* Plot the equipment on a map with a tooltip that shows the equipment parameters and records
 ### Week 16 ###
-* Create a dashboard to hold multiple views
+* Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
 
 
