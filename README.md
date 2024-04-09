@@ -35,10 +35,10 @@ The following tasks and questions will drive the visualization and interaction d
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)
   
   ### Update 4/9/24
-  Implemented Multiple Vizzes into One 
-  
+  Implemented Multiple Vizzes into One (hexbin + scatterplot)
+  Ensured tooltip only shows up in scatterplot
+  Crosshair Implemented
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/6541c5ec-35b0-4235-afed-a17ed6fd060b)
-
 
 ## Milestones
 
@@ -49,6 +49,7 @@ The following tasks and questions will drive the visualization and interaction d
 ### Week 13 ###
 * ~~Create a dashboard to hold multiple views~~
 ### Week 14 ###
+* Set upper/lower limits to X/Y, Filter for Manufacturer
 * Compare data from sister assets or trending data from the same asset on one plot.
 ### Week 15 ###
 * Plot the equipment on a map with a tooltip that shows the equipment parameters and records
