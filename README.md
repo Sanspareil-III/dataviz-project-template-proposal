@@ -38,7 +38,8 @@ The following tasks and questions will drive the visualization and interaction d
   * Implemented Multiple Vizzes into One (hexbin + scatterplot)
   * Ensured tooltip only shows up in scatterplot
   * Crosshair Implemented
-  ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/6541c5ec-35b0-4235-afed-a17ed6fd060b)
+  ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/34b5d8d8-882e-48bf-8de6-f3c7121df4a3)
+
 
 ## Milestones
 
