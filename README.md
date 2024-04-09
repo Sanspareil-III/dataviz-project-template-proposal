@@ -10,17 +10,17 @@ The data I propose to visualize for my project is structured data in XML format.
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
   ### Distribution Trends
-  What is the distribution by manufacturer?
-  What are the most common breaker types?
+  * What is the distribution by manufacturer?
+  * What are the most common breaker types?
   
   ### Performance Trends
   
-  How does the new test data compare across geographic areas or climate zones?
-  How does the new test data compare to equipment of the similar characteristics?
+  * How does the new test data compare across geographic areas or climate zones?
+  * How does the new test data compare to equipment of the similar characteristics?
 
   ### Comparitive Analysis
-  How does the pole resistance measurement change based on humidity?
-  How does the fuse resistance change based on fuse size?
+  * How does the pole resistance measurement change based on humidity?
+  * How does the fuse resistance change based on fuse size?
 
 ## Sketches
 ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)
