@@ -31,10 +31,12 @@ The following tasks and questions will drive the visualization and interaction d
   
   ### Update 4/1/24
   Removed all zero or null values from visual, set upper threshold for certain drop down selection
+  
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)
   
   ### Update 4/9/24
   Implemented Multiple Vizzes into One 
+  
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/6541c5ec-35b0-4235-afed-a17ed6fd060b)
 
 
