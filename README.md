@@ -49,7 +49,7 @@ The following tasks and questions will drive the visualization and interaction d
 ### Week 13 ###
 * ~~Create a dashboard to hold multiple views~~
 ### Week 14 ###
-* Set upper/lower limits to X/Y, Filter for Manufacturer
+* Set upper/lower limits to X/Y or Brushing, Filter for Manufacturer
 * Compare data from sister assets or trending data from the same asset on one plot.
 ### Week 15 ###
 * Plot the equipment on a map with a tooltip that shows the equipment parameters and records
