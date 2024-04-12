@@ -4,7 +4,6 @@
 
 The data I propose to visualize for my project is structured data in XML format. We have test data for power system equipment.
 
-
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
@@ -21,6 +20,29 @@ The following tasks and questions will drive the visualization and interaction d
   ### Comparitive Analysis
   * How does the pole resistance measurement change based on humidity?
   * How does the fuse resistance change based on fuse size?
+
+## Retrospective on Questions
+  ### Distribution Trends
+  * What is the distribution by manufacturer?
+  ** Must implement pie chart
+  * What are the most common breaker types?
+  ** Must implement pie chart
+  
+  ### Performance Trends
+  * How does the new test data compare across geographic areas or climate zones?
+  ** No map functionality yet
+  * How does the new test data compare to equipment of the similar characteristics?
+  ** Working on comparing trending data in current rev 
+
+  ### Comparitive Analysis
+  * How does the pole resistance measurement change based on humidity?
+  ** Can see in scatterplot now
+  * How does the fuse resistance change based on fuse size?
+  ** Can see in scatterplot now
+    
+  ### Aesthetic Requirements
+  * Hoping to introduce unique styling beyond basic coloring of points, possibly with HCL and hue shift.
+  * Some menus could be cleaner, check box style
 
 ## Sketches
 ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)
@@ -41,6 +63,11 @@ The following tasks and questions will drive the visualization and interaction d
   * Default X,Y,Category, and Plot Selections implemented
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/34b5d8d8-882e-48bf-8de6-f3c7121df4a3)
 
+  ### Update 4/11/24
+  * Implemented Menu Option to only show data for equipment IDs that are duplicates in the dataset, indicating unique test results.
+  * Next feature I'd like to complete is drawing a line between selected datapoints, indicating trending.
+  * Possibly add feature to indicate test date and time to selected data points.
+  ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/275122c7-fd23-4677-a5a8-12de1f25cfc1)
 
 ## Milestones
 
