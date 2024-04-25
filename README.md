@@ -21,7 +21,7 @@ The project utilized XML data concerning power system equipment testing. This da
 
 ## Achievements and Visualizations
 ### Initial Sketches
-[![Initial Sketch](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
+[![Initial Sketch](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)]
 
 ### Prototype Updates
 #### 3/25/24
