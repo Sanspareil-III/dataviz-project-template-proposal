@@ -37,7 +37,7 @@ The following tasks and questions will drive the visualization and interaction d
   ### Comparitive Analysis
   * How does the pole resistance measurement change based on humidity?
   ** Can see in scatterplot now
-  * How does the fuse resistance change based on fuse size?
+  * How does the resistance change based on frame size?
   ** Can see in scatterplot now
     
   ### Aesthetic Requirements
@@ -52,7 +52,7 @@ The following tasks and questions will drive the visualization and interaction d
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)
   
   ### Update 4/1/24
-  Removed all zero or null values from visual, set upper threshold for certain drop down selection
+  * Removed all zero or null values from visual, set upper threshold for certain drop down selection
   
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)
   
@@ -65,9 +65,13 @@ The following tasks and questions will drive the visualization and interaction d
 
   ### Update 4/11/24
   * Implemented Menu Option to only show data for equipment IDs that are duplicates in the dataset, indicating unique test results.
-  * Next feature I'd like to complete is drawing a line between selected datapoints, indicating trending.
-  * Possibly add feature to indicate test date and time to selected data points.
   ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/275122c7-fd23-4677-a5a8-12de1f25cfc1)
+
+ ### Update 4/21/24
+ * Implemented Map using Hexbins
+ * The bins changed size based on the data set chosen
+  ![image](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/769336ed-0e68-4ccd-a4c5-3a5fd6c26b65)
+
 
 ## Milestones
 
@@ -78,11 +82,11 @@ The following tasks and questions will drive the visualization and interaction d
 ### Week 13 ###
 * ~~Create a dashboard to hold multiple views~~
 ### Week 14 ###
-* Set upper/lower limits to X/Y or Brushing, Filter for Manufacturer
-* Compare data from sister assets or trending data from the same asset on one plot.
+* ~~Set upper/lower limits to X/Y for Parameters~~
 ### Week 15 ###
-* Plot the equipment on a map with a tooltip that shows the equipment parameters and records
+* ~~Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on one graph~~
 ### Week 16 ###
-* Compare all equipment with certain characteristics (Ampere Rating, Manufacturer, Model, etc.) on a bell curve or similar
+* ~~Plot the equipment on a map with a tooltip that shows the equipment parameters and records~~
+
 
 
