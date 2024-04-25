@@ -26,7 +26,7 @@ The project utilized XML data concerning power system equipment testing. This da
 ### Prototype Updates
 #### 3/25/24
 - Initial prototype focusing on data plotting and data transformation from poorly structured XML data.
-[![Prototype 3/25](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)](https://vizhub.com/Sanspareil-III/57b805d22d8e4eb886605fde467da4b2)
+[![Prototype 3/25](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)](https://vizhub.com/Sanspareil-III/6e0f4fed1b21422db94256a75bf222de)
 
 #### 4/1/24
 - Enhanced data filtering to remove zero or null values and manage thresholds dynamically.
