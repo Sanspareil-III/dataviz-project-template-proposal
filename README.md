@@ -21,29 +21,29 @@ The project utilized XML data concerning power system equipment testing. This da
 
 ## Achievements and Visualizations
 ### Initial Sketches
-[![Initial Sketch](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)](VizHub-link-here)
+[![Initial Sketch](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/8c947169-bac6-48fb-85a9-4c7a535ab3e7)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
 
 ### Prototype Updates
 #### 3/25/24
 - Initial prototype focusing on data plotting and data transformation from poorly structured XML data.
-[![Prototype 3/25](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)](VizHub-link-here)
+[![Prototype 3/25](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/f2183f3d-0863-404b-b943-25d35012aedb)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
 
 #### 4/1/24
 - Enhanced data filtering to remove zero or null values and manage thresholds dynamically.
-[![Update 4/1](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)](VizHub-link-here)
+[![Update 4/1](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/c4523f9e-f61c-46b6-8d49-134f61659314)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
 
 #### 4/9/24
 - Integrated multiple visualization types (hexbin + scatterplot) within a single interface.
 - Improved user interactions through tooltips and crosshairs.
-[![Update 4/9](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/34b5d8d8-882e-48bf-8de6-f3c7121df4a3)](VizHub-link-here)
+[![Update 4/9](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/34b5d8d8-882e-48bf-8de6-f3c7121df4a3)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
 
 #### 4/11/24
 - Focused on displaying duplicate IDs in the dataset, highlighting unique test results.
-[![Update 4/11](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/275122c7-fd23-4677-a5a8-12de1f25cfc1)](VizHub-link-here)
+[![Update 4/11](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/275122c7-fd23-4677-a5a8-12de1f25cfc1)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
 
 #### 4/21/24
 - Implemented a map visualization using hexbins, where bin size dynamically adjusts according to the data set.
-[![Update 4/21](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/769336ed-0e68-4ccd-a4c5-3a5fd6c26b65)](VizHub-link-here)
+[![Update 4/21](https://github.com/Sanspareil-III/dataviz-project-template-proposal/assets/124217150/769336ed-0e68-4ccd-a4c5-3a5fd6c26b65)](https://vizhub.com/Sanspareil-III/fe5afa45a1ef438c974de1237fa3a200)
 
 ## Milestones Achieved
 - Displayed multiple XML sheets to allow cross-sheet comparisons.
