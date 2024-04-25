@@ -1,5 +1,7 @@
 # Data Visualization Project
 
+[YouTube Video](https://youtu.be/BU-BCVkl6BM)
+
 ## Overview
 This project involved visualizing structured XML data related to power system equipment tests. It aimed to analyze trends in equipment distribution and performance across different manufacturers, breaker types, and geographic or climate conditions.
 
